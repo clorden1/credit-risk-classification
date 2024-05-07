@@ -29,9 +29,9 @@
 
 ### Summary
 
-In summary, this model is very good at predicting whether a loan is healthy. While this appears good the extremely high accuracy, precision, and recall may be due to overfitting and more cross-validation should be done to assess this. 
+In summary, this model performs well at predicting a healthy loan. While this appears good, the extremely high accuracy, precision, and recall may be due to overfitting and more cross-validation should be done to assess this. 
 
-This model is less capable of determining high-risk loans. Because high-risk loans are the outcome of importance in this case, I would not recommend using this model to predict whether or not a loan is at high risk of defaulting. Some ways to strengthen the model could be:
+This model is less capable of determining high-risk loans as seen in its 85% precision. Because high-risk loans are the outcome of importance in this case, I would not recommend using this model to predict whether or not a loan is at high risk of defaulting. Some ways to strengthen the model could be:
 * Including more high-risk data in the training datasets.
 * Using a different proportion to split the training and testing data.
 
